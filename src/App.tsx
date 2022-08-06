@@ -1,9 +1,12 @@
 import React from 'react';
+import Hero from './components/hero/Hero';
+import Info from './components/info/Info';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Hero />
+      <Info />
     </div>
   );
 }

@@ -1,0 +1,55 @@
+.InfoBoxContainer {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 'img desc btn';
+  grid-template-columns: 1fr 2fr 0.6fr;
+  background: linear-gradient(270deg, rgba(4, 103, 174, 0.6) 0%, rgba(0, 0, 0, 0) 60%);
+  gap: 1em;
+  border-radius: 40px;
+  padding: 1.3em 1.3em 1.3em 0;
+}
+
+.imgContainer {
+  grid-area: img;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.textContainer {
+  grid-area: desc;
+}
+
+.header {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+.description {
+
+}
+
+.btnContainer {
+  grid-area: btn;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsBtn {
+  width: 7.5em;
+  height: 2em;
+  background: #094673;
+  box-shadow: 5px 5px 10px 3px #102230, -5px -5px 10px 3px #0D5386;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Oxanium', cursive;
+  font-weight: 300;
+  cursor: pointer;
+}
